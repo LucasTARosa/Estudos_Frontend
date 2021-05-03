@@ -1,0 +1,88 @@
+body{
+    background: #cccccc;
+    font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
+}
+
+.photo{
+    border: 1px #505050;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+#title, .sub_title, .post_title{
+color: #505050;
+}
+
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.Who_I_am{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.quem_sou_eu{
+    text-align: justify;
+    font-size: 16px;
+    font-family: verdana;
+    margin: 0;
+    margin-bottom: 15px;
+}
+a{
+    text-decoration: underline;
+    color: #505050;
+}
+.post1_title{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post{
+    background: #fff ;
+    padding: 15px;  
+    border: 3px solid #505050;  
+    margin: 0;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.post1_1{
+    margin: 0;
+    text-transform: capitalize;
+    text-align: justify;
+}
+.post1_2{
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+.post1_image{
+    margin:0;
+    margin-bottom: 15px;
+    width: 50%;
+    height: 50%;
+    border-radius: 5px;
+}
+.list{
+   list-style-type: none; 
+   padding: 0;
+   padding-left: 15px;
+   }
+.list li a {
+    text-decoration: none;
+    color: #535353;
+}
+.footer p{
+margin: 15px;
+margin-top: 50px;
+font-weight: bold;
+}

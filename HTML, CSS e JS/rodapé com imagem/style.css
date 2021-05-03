@@ -1,0 +1,49 @@
+.inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+    height: 100%;
+    }
+    .inicio_1 {
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
+.contato{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    
+}
+.link{
+    height: 5rem;
+    width: 5rem;
+    background-size: cover;
+
+}
+.link:nth-child(1){
+    background-image: url(./github-logo.png);
+
+}
+.link:nth-child(2){
+    background-image: url(./gmail-logo.png);
+    width: 8rem;
+    height: 6rem;
+
+}
+.link:nth-child(3){
+    background-image: url(./linkedin-logo.png);
+}
+.link:nth-child(4){
+    background-image: url(./fb-logo.png);
+
+}
+.link:nth-child(5){
+    background-image: url(./Insta-logo.png);
+
+}
